@@ -1,0 +1,59 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Visualization - Interactive Charts</title> 
+    <link rel="stylesheet" href="styles.css"> 
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> 
+</head> 
+<body> 
+    <header> 
+        <nav> 
+            <div class="logo">Chromatography Lab</div> 
+            <ul class="nav-links"> 
+                <li><a href="index.html">Home</a></li> 
+                <li><a href="concepts.html">Concepts</a></li> 
+                <li><a href="datasets.html">Data Sets</a></li> 
+                <li><a href="tools.html">Tools</a></li> 
+                <li><a href="visualization.html">Visualization</a></li> 
+                <li><a href="references.html">References</a></li> 
+            </ul> 
+            <button id="theme-toggle">
+🌙
+</button> 
+        </nav> 
+    </header> 
+ 
+    <main> 
+        <h1>Interactive Data Visualizations</h1> 
+ 
+        <section> 
+            <h2>TLC Plate Simulation</h2> 
+            <canvas id="tlcChart" height="400"></canvas> 
+        </section> 
+ 
+        <section> 
+            <h2>HPLC Chromatogram Example</h2> 
+            <canvas id="hplcChart" height="300"></canvas> 
+        </section> 
+ 
+        <section> 
+            <h2>Gas Chromatography Example</h2> 
+            <canvas id="gcChart" height="300"></canvas> 
+        </section> 
+ 
+        <section> 
+            <h2>Calibration Curve (Quantitative Analysis)</h2> 
+            <canvas id="calibrationChart" height="300"></canvas> 
+        </section> 
+    </main> 
+ 
+    <footer> 
+        <p>&copy; 2025 Chromatography Educational Platform</p> 
+    </footer> 
+ 
+    <script src="script.js"></script> 
+    <script src="charts.js"></script> 
+</body> 
+</html>
