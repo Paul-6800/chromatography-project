@@ -1,0 +1,102 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Data Sets - Chromatography</title> 
+    <link rel="stylesheet" href="styles.css"> 
+</head> 
+<body> 
+    <header> 
+        <nav> 
+            <div class="logo">Chromatography Lab</div> 
+            <ul class="nav-links"> 
+                <li><a href="index.html">Home</a></li> 
+                <li><a href="concepts.html">Concepts</a></li> 
+                <li><a href="datasets.html">Data Sets</a></li> 
+                <li><a href="tools.html">Tools</a></li> 
+                <li><a href="visualization.html">Visualization</a></li> 
+                <li><a href="references.html">References</a></li> 
+            </ul> 
+            <button id="theme-toggle">
+🌙
+</button> 
+        </nav> 
+    </header> 
+ 
+    <main> 
+        <h1>Sample Chromatography Data Sets</h1> 
+        <p>These tables show real example data from TLC, HPLC, and GC experiments. Use 
+them with the calculators and visualizations.</p> 
+ 
+        <section class="card"> 
+            <h2>Thin-Layer Chromatography (TLC) Data</h2> 
+            <table> 
+                <thead> 
+                    <tr> 
+                        <th>Compound</th> 
+                        <th>Distance from Origin (cm)</th> 
+                        <th>Solvent Front (cm)</th> 
+                        <th>Rf Value</th> 
+                    </tr> 
+                </thead> 
+                <tbody> 
+                    <tr><td>Aspirin</td><td>2.5</td><td>10.0</td><td>0.25</td></tr> 
+                    <tr><td>Caffeine</td><td>4.8</td><td>10.0</td><td>0.48</td></tr> 
+                    <tr><td>Ibuprofen</td><td>7.2</td><td>10.0</td><td>0.72</td></tr> 
+                    <tr><td>Unknown Mixture</td><td>2.5, 4.8</td><td>10.0</td><td>0.25, 
+0.48</td></tr> 
+                </tbody> 
+            </table> 
+            <img src="images/tlc-plate1.jpg" alt="TLC Plate with Spots"> 
+            <img src="images/tlc-setup.jpg" alt="TLC Development Chamber"> 
+        </section> 
+ 
+        <section class="card"> 
+            <h2>High-Performance Liquid Chromatography (HPLC) Data</h2> 
+            <table> 
+                <thead> 
+                    <tr> 
+                        <th>Peak #</th> 
+                        <th>Retention Time (min)</th> 
+                        <th>Peak Area</th> 
+                        <th>Compound</th> 
+                    </tr> 
+                </thead> 
+                <tbody> 
+                    <tr><td>1</td><td>3.2</td><td>4500</td><td>Caffeine</td></tr> 
+                    <tr><td>2</td><td>5.8</td><td>3200</td><td>Aspirin</td></tr> 
+                    <tr><td>3</td><td>8.1</td><td>1800</td><td>Unknown</td></tr> 
+                </tbody> 
+            </table> 
+            <img src="images/hplc-chromatogram.jpg" alt="HPLC Chromatogram Example"> 
+        </section> 
+ 
+        <section class="card"> 
+            <h2>Gas Chromatography (GC) Data</h2> 
+            <table> 
+                <thead> 
+                    <tr> 
+                        <th>Peak #</th> 
+                        <th>Retention Time (min)</th> 
+                        <th>Peak Height</th> 
+                        <th>Compound</th> 
+                    </tr> 
+                </thead> 
+                <tbody> 
+                    <tr><td>1</td><td>2.1</td><td>85</td><td>Methane</td></tr> 
+                    <tr><td>2</td><td>7.5</td><td>120</td><td>Ethanol</td></tr> 
+                    <tr><td>3</td><td>12.3</td><td>95</td><td>Acetone</td></tr> 
+                </tbody> 
+            </table> 
+            <img src="images/gc-chromatogram.jpg" alt="GC Chromatogram Example"> 
+        </section> 
+    </main> 
+ 
+    <footer> 
+        <p>&copy; 2025 Chromatography Educational Platform</p> 
+    </footer> 
+ 
+    <script src="script.js"></script> 
+</body> 
+</html>
